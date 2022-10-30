@@ -1,0 +1,79 @@
+body {
+    font: 16px/28px arial, sans-serif;
+    background-color: rgb(176, 176, 176);
+    color: #333;
+}
+
+.container {
+    width: 800px;
+    margin: auto;
+    background-color: rgb(7, 31, 191);
+}
+
+.header {
+    padding: 15px;
+}
+
+.header .judul {
+    font-size: 40px;
+    font-weight: bold;
+    padding-left: 40px;
+    color: aliceblue;
+}
+
+.header ul li {
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.header a {
+    text-decoration: none;
+    color: rgb(234, 238, 10);
+    padding: 5px;
+}
+
+.header a:hover {
+    background-color: dodgerblue;
+    color: rgb(170, 170, 170);
+}
+
+.poster {
+    height: 250px;
+    background-image: url(img/latar.jpg);
+    background-size: cover;
+    background-position: 0 -180px;
+    border-top: 5px solid aqua;
+    border-bottom: 5px solid aqua;
+}
+
+.content {
+    padding: 20px;
+}
+
+.content h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+.content .penulis a {
+    text-decoration: none;
+    color: aqua;
+}
+
+.content p {
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: aliceblue;
+}
+
+.footer {
+    background-color: #333;
+}
+
+.footer .copy {
+    color: azure;
+    text-align: center;
+    padding: 10px;
+}
